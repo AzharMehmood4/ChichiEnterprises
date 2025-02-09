@@ -26,6 +26,7 @@ const Navebar = () => {
       <FaInstagram color="gray"/>
       <FaPinterestP color='gray'/>
       <FaTwitter color='gray'/>
+      <FaTwitter color='gray3456790'/>
       </div>
       </div>
     </div>
