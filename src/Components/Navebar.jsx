@@ -6,9 +6,9 @@ import { FaInstagram, FaFacebookF, FaPinterestP, FaTwitter, FaBars } from "react
 const menuLinks = [
   { id: 1, name: "Home", path: "/" },
   { id: 2, name: "Our Services", path: "/ourServices" },
-  { id: 3, name: "About Us", path: "/about" },
-  { id: 4, name: "Umrah Packages", path: "/umrahPackages" },
-  { id: 5, name: "Hajj Packages", path: "/hajjPackages" },
+  { id: 3, name: "Umrah Packages", path: "/umrahPackages" },
+  { id: 4, name: "Hajj Packages", path: "/hajjPackages" },
+  { id: 5, name: "About Us", path: "/about" },
   { id: 6, name: "Contact Us", path: "/contactUs" },
 ];
 
@@ -21,11 +21,11 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-100 border-b shadow-sm relative">
-      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Logo Section */}
         <div className="text-xl font-semibold text-gray-700">
           <Link to="/">
-            <img src={Logo} width={48} alt="ChiChi Enterprises" />
+            <img className="w-16 h-auto" src={Logo} alt="ChiChi Enterprises" />
           </Link>
         </div>
 

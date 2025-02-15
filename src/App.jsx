@@ -7,6 +7,8 @@ import About from "./Pages/About"
 import UmrahPackages from "./Pages/UmrahPackages"
 import HajjPackages from "./Pages/HajjPackages"
 import ContactUs from "./Pages/ContactUs"
+import Footer from "./Components/Footer";
+import Tracker from "./Pages/Tracker";
 
 
 const App = () => {
@@ -20,7 +22,9 @@ const App = () => {
         <Route path="/umrahPackages" element={<UmrahPackages />} />
         <Route path="/hajjPackages" element={<HajjPackages />} />
         <Route path="/contactUs" element={<ContactUs />} />
+        <Route path="/processtracking" element={<Tracker />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
