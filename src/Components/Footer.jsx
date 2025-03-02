@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../assets/Logo.png"
-import { FaInstagram, FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom"
 
 const footerLinks= [
@@ -87,7 +87,7 @@ const Footer = () => {
         <div className="flex space-x-4 text-gray-500 my-2">
           <FaFacebookF className="hover:text-blue-600 cursor-pointer" />
           <FaInstagram className="hover:text-pink-500 cursor-pointer" />
-          <FaPinterestP className="hover:text-red-600 cursor-pointer" />
+          <FaWhatsapp className="hover:text-pink-500 cursor-pointer" />
           <FaTwitter className="hover:text-blue-400 cursor-pointer" />
         </div>
         </div>
