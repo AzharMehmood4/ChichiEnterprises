@@ -2,7 +2,7 @@ import banner from "../assets/banner1.avif";
 
 const ContactUs = () => {
   return (
-    <div className="max-w-7xl mx-auto p-8 space-y-16">
+    <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 space-y-16">
       {/* Heading Image with Overlay */}
       <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden">
         <img
@@ -19,13 +19,13 @@ const ContactUs = () => {
 
       {/* Paragraph Below Image */}
       <div className="text-start mx-auto space-y-4">
-        <p className="text-lg text-gray-600">
+        <p className="text-lg text-gray-600 leading-relaxed">
           We would love to hear from you! Whether you are an employer looking
           for top talent or a job seeker searching for the perfect opportunity,
           Chichi Enterprises is here to assist you. Our team of dedicated
-          professionals is ready to answer your queries and <br /> provide the
-          support you need. Contact us today to learn more about our services
-          and how we can help you achieve your goals.
+          professionals is ready to answer your queries and provide the support
+          you need. Contact us today to learn more about our services and how we
+          can help you achieve your goals.
         </p>
       </div>
 
@@ -39,19 +39,15 @@ const ContactUs = () => {
               <strong>Office:</strong> New Road, Mingora, Swat
             </p>
             <p>
-              <strong>Phone:</strong> <br />
-              0092-946729685,
-              <br /> 0092-946713083, <br />
-              0092-346 9338816,
-              <br /> 0092 300 9320418
+              <strong>Phone:</strong> 0092-946729685, 0092-946713083, 0092-346
+              9338816, 0092 300 9320418
             </p>
             <p>
               <strong>Email:</strong> chichienterprises@hotmail.com
             </p>
             <p>
-              <strong>Business Hours:</strong> <br />
-              Mon-Fri: 8:00 AM - 5:00 PM <br />
-              Sat: 8:00 AM - 2:00 PM
+              <strong>Business Hours:</strong> Mon-Fri: 8:00 AM - 5:00 PM | Sat:
+              8:00 AM - 2:00 PM
             </p>
           </div>
         </div>

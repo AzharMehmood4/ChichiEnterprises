@@ -1,5 +1,5 @@
 import logo from "../assets/Logo.png";
-import heroImage from "../assets/banner1.avif"; // Add your heading image
+import heroImage from "../assets/banner1.avif";
 
 const About = () => {
   const teamMembers = [
@@ -18,7 +18,7 @@ const About = () => {
       <div className="relative w-full h-64 md:h-80 rounded-xl overflow-hidden">
         <img
           src={heroImage}
-          alt="Contact Us Banner"
+          alt="About Us Banner"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
@@ -30,7 +30,7 @@ const About = () => {
 
       {/* About Text */}
       <div className="text-center sm:text-left max-w-5xl mx-auto space-y-6">
-        <p className="text-gray-700 text-lg leading-relaxed">
+        <p className="text-gray-700 mb-6 text-lg leading-relaxed">
           Founded in 2007, Chichi Enterprises is a leading recruitment agency
           specializing in providing top-tier manpower to the Kingdom of Saudi
           Arabia (KSA). With over a decade of experience in the industry, we
@@ -38,15 +38,13 @@ const About = () => {
           hardworking professionals to meet the growing demands of diverse
           sectors.
         </p>
-
-        <p className="text-gray-700 text-lg leading-relaxed">
+        <p className="text-gray-700 mb-6 text-lg leading-relaxed">
           Our agency is licensed under the name of our Managing Director,
           Muhammad Farooq, ensuring that we operate with transparency,
           professionalism, and compliance. We pride ourselves on our commitment
           to both our clients and workers, building long-term partnerships based
           on trust and mutual respect.
         </p>
-
         <p className="text-gray-700 text-lg leading-relaxed">
           At the helm of our company is Muhammad Karim, our CEO, whose visionary
           leadership and deep understanding of the manpower industry have been
@@ -76,14 +74,6 @@ const About = () => {
             </div>
           ))}
         </div>
-      </div>
-
-      {/* Additional Information */}
-      <div className="text-center">
-        <p className="text-gray-700 text-lg leading-relaxed">
-          We offer a comprehensive range of services and are ready to serve
-          clients in various industries with customized staffing solutions.
-        </p>
       </div>
     </div>
   );
