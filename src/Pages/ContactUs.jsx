@@ -98,7 +98,7 @@ const ContactUs = () => {
       <div className="w-full h-96 rounded-xl overflow-hidden shadow-lg">
         <iframe
           className="w-full h-full"
-          src="https://www.google.com/maps/embed/v1/place?q=Mingora+Swat+Pakistan&key=YOUR_GOOGLE_MAPS_API_KEY"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204.8276869001715!2d72.35722011581194!3d34.774657667687066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dc22c7d5f82adf%3A0x512eaec8f75d2e21!2sCHICHI%20ENTERPRISES!5e0!3m2!1sen!2s!4v1741972284305!5m2!1sen!2s"
           allowFullScreen
           loading="lazy"
         ></iframe>
