@@ -1,12 +1,5 @@
-import React from 'react'
-
 const OurServices = () => {
-  return (
-    <div>
-      OurServices
-      
-    </div>
-  )
-}
+  return <div>OurServices hkdsfjsdhfkjsdhfksjdh</div>;
+};
 
-export default OurServices
+export default OurServices;
