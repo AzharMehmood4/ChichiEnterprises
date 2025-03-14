@@ -1,4 +1,4 @@
-const AboutUs = () => {
+const About = () => {
   const teamMembers = [
     { name: "John Smith", role: "CEO & Founder" },
     { name: "Emily Johnson", role: "Chief Operating Officer" },
@@ -59,4 +59,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default About;
