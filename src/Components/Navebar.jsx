@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/Logo.png";
 import {
@@ -51,7 +51,7 @@ const Navbar = () => {
           <FaFacebookF className="hover:text-blue-600 cursor-pointer" />
           <FaInstagram className="hover:text-pink-500 cursor-pointer" />
           <a href="www.https://wa.me/+923469338816">
-            <FaWhatsapp className="hover:text-pink-500 cursor-pointer" />
+            <FaWhatsapp className="hover:text-green-500 cursor-pointer" />
           </a>
           <FaTwitter className="hover:text-blue-400 cursor-pointer" />
         </div>
@@ -104,7 +104,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaWhatsapp className="hover:text-pink-500 cursor-pointer" />
+              <FaWhatsapp className="hover:text-green-500 cursor-pointer" />
             </a>
 
             <FaTwitter className="hover:text-blue-400 cursor-pointer" />
