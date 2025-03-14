@@ -99,9 +99,14 @@ const Navbar = () => {
           <div className="flex justify-center space-x-4 mt-6 text-gray-500">
             <FaFacebookF className="hover:text-blue-600 cursor-pointer" />
             <FaInstagram className="hover:text-pink-500 cursor-pointer" />
-            <a href="www.https://wa.me/+923469338816">
+            <a
+              href="https://wa.me/+923469338816"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaWhatsapp className="hover:text-pink-500 cursor-pointer" />
             </a>
+
             <FaTwitter className="hover:text-blue-400 cursor-pointer" />
           </div>
         </div>
