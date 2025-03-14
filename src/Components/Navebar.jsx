@@ -50,7 +50,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-4 text-gray-500">
           <FaFacebookF className="hover:text-blue-600 cursor-pointer" />
           <FaInstagram className="hover:text-pink-500 cursor-pointer" />
-          <a href="wa.me/+923469338816" target="_blank">
+          <a href="www.https://wa.me/+923469338816">
             <FaWhatsapp className="hover:text-pink-500 cursor-pointer" />
           </a>
           <FaTwitter className="hover:text-blue-400 cursor-pointer" />
