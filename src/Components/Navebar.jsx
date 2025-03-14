@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/Logo.png";
-import { FaInstagram, FaFacebookF, FaTwitter, FaBars, FaWhatsapp } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaFacebookF,
+  FaTwitter,
+  FaBars,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 const menuLinks = [
   { id: 1, name: "Home", path: "/" },
@@ -44,12 +50,16 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-4 text-gray-500">
           <FaFacebookF className="hover:text-blue-600 cursor-pointer" />
           <FaInstagram className="hover:text-pink-500 cursor-pointer" />
-          <FaWhatsapp className="hover:text-pink-500 cursor-pointer" />
-          <FaTwitter className="hover:text-blue-400 cursor-pointer" />
+          <a href="wa.me/+923469338816">
+            <FaTwitter className="hover:text-blue-400 cursor-pointer" />
+          </a>
         </div>
 
         {/* Hamburger Menu (Mobile) */}
-        <div className="md:hidden text-gray-500 cursor-pointer" onClick={() => setMenuOpen(!menuOpen)}>
+        <div
+          className="md:hidden text-gray-500 cursor-pointer"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
           <FaBars size={24} />
         </div>
 
@@ -61,7 +71,10 @@ const Navbar = () => {
         >
           {/* Close Button */}
           <div className="flex justify-end p-4">
-            <button className="text-gray-500 text-xl" onClick={() => setMenuOpen(false)}>
+            <button
+              className="text-gray-500 text-xl"
+              onClick={() => setMenuOpen(false)}
+            >
               ✖
             </button>
           </div>
@@ -70,7 +83,11 @@ const Navbar = () => {
           <ul className="flex flex-col space-y-4 p-4 text-gray-700">
             {menuLinks.map((item) => (
               <li key={item.id}>
-                <Link to={item.path} className="hover:text-blue-600" onClick={handleLinkClick}>
+                <Link
+                  to={item.path}
+                  className="hover:text-blue-600"
+                  onClick={handleLinkClick}
+                >
                   {item.name}
                 </Link>
               </li>
